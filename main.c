@@ -9,10 +9,8 @@ int main(void)
 
 	printName(name);
 
-	sleep(1000);
+	sleep(1);
 	printf("End!\n");
-	printf("Press Enter to exit...");
-	getchar();
 	
 	return 0;
 }

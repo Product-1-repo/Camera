@@ -6,6 +6,8 @@ int main()
     {
         printf("Confict : %d\n",index);
     }
+
+    
     printf("GitHub Training\n");
     return 0;
 }

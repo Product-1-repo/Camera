@@ -15,6 +15,11 @@ jobs:
     - uses: actions/checkout@v4
     - name: configure
       run: gcc main.c functions.c -o mainApp
+    - name: Upload binary
+      uses: actions/upload-artifact@v3
+      with:
+        name: mainApp
+        path: mainApp
    # - name: make
    #   run: make
    # - name: make check

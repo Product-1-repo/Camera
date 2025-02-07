@@ -16,7 +16,7 @@ jobs:
     - name: configure
       run: gcc main.c functions.c -o mainApp
     - name: Upload binary
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v3.1.0
       with:
         name: mainApp
         path: mainApp

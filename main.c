@@ -9,7 +9,7 @@ int main(void)
 
 	printName(name);
 
-	sleep(1000);
+	sleep(1);
 	printf("End!\n");
 	
 	return 0;
